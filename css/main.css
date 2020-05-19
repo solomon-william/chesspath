@@ -1,0 +1,113 @@
+*{
+
+
+  font-size: 1.1rem;
+}
+.about-text{
+  font-size: 1.9em;
+}
+header,body,section{
+  height: 100%;
+  font-family: Arial;
+font-family: 'Amiri', serif;
+
+}
+header{
+  position: relative;
+}
+section{
+  padding-bottom:60px;
+  padding-top:30px;
+}
+.orange{
+background-color:rgba(100,100,100,0.6);
+
+border-radius: 10px;
+
+}
+.main-btn{
+  z-index: 100;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding:15px 20px;
+}
+.courselstyle{
+  font-size: 1.6rem;
+  color:	 #e6f9ff;
+  text-shadow: 0px 2px 2px rgba(255, 255, 255, 0.4);
+}
+.t-color{
+  color:	 #e6f9ff;
+}
+html,body{
+  max-width: 100%;
+  overflow-x: hidden;
+
+}
+.lsize{
+  width: 380px;
+  margin: auto;
+  padding:0 50px;
+}
+.nav-bg{
+  background: linear-gradient(120deg,#7f70f5,#0ea0ff);
+}
+.spacer{
+height: 10px;
+width: 100%;
+background: orange;
+margin: 40px 0;
+display: block;
+}
+.spacer1{
+height: 10px;
+width: 100%;
+margin: 40px 0;
+display: block;
+}
+
+#about-me{
+  min-height: 80vh;
+}
+#training{
+background: linear-gradient(120deg,#7f70f5,#0ea0ff);
+  /*background: linear-gradient(120deg,#7f70f5,#0ea0ff);
+  background-color: rgba(89, 146, 222,0.5);
+  background: url("../images/bg.jpg") center center;
+  background-size: cover;
+  background-attachment: fixed;
+
+
+}
+#trainingb{
+    background-color: rgba(89, 146, 222,0.5);
+*/}
+
+#training .row{
+  min-height:90%;
+}
+.piece-color{
+  color:orange;
+}
+#students{
+  min-height: 60vh;
+}
+.contacts a{
+ color:white;
+ text-decoration: none;
+
+}
+.contacts a:hover{
+ color:#2dbaed;
+
+
+}
+@media screen and (max-width:1250px) {
+
+  // Show and left align the captions
+  .carousel-caption {
+    display: none
+  }
+}
