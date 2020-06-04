@@ -64,9 +64,11 @@ html,body{
 }
 .c-gold{
 color:	#e8a130;
+
 }
 .bg-gold{
 background-color:	#e8a130;
+
 }
 #d-header{
   background-color: #333333;
@@ -77,6 +79,11 @@ background-color:	#e8a130;
 }
 #login{
   height: 73vh !important;
+}
+.gallery-section{
+  width:100%;
+  padding:60px 0;
+  background:#f1f1f1;
 }
 .breadcrumb{
   background: #cccccc;
