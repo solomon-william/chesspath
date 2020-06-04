@@ -15,6 +15,3 @@ if( window.innerWidth< 1250){
   image1.src = "cimage/IMG-20190908-WA0010.jpg";
 }
 */
-window.onload = function func(){
-  alert('geg');
-}
