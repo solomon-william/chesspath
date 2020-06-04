@@ -51,6 +51,37 @@ html,body{
   margin: auto;
   padding:0 50px;
 }
+.bg-blue{
+  background:#0e2f5c;
+
+}
+.bg-dblue{
+  background:#132748;
+}
+.c-blue{
+  color:#0e2f5c;
+
+}
+.c-gold{
+color:	#e8a130;
+}
+.bg-gold{
+background-color:	#e8a130;
+}
+#d-header{
+  background-color: #333333;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  color:#ffffff;
+
+}
+#login{
+  height: 73vh !important;
+}
+.breadcrumb{
+  background: #cccccc;
+  color:#333333;
+}
 .nav-bg{
   background: linear-gradient(120deg,#7f70f5,#0ea0ff);
 }
